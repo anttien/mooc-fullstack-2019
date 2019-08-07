@@ -1,0 +1,10 @@
+note over selain:
+selain suorittaa 'SAVE' nappiin liitetyn 
+tapahtumankäsittelijän joka:
+- lisää formin sisällön listaan
+- renderöi muistiinpanot näytölle
+- lähettää sisällön JSON muodossa palvelimelle (alla)
+end note
+
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin-->selain: 201 response: {"message":"note created"}
