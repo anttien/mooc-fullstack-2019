@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://mooc-fullstack-muistiinpanot.herokuapp.com/api/persons'
+const baseUrl = 'https://mooc-fullstack-puhelinluettelo.herokuapp.com/api/persons'
 
 const getAll = () => {
     const request = axios.get(baseUrl)
