@@ -1,0 +1,4 @@
+- Node backend w/ nodemon
+npm run watch
+- React frontend
+npm start
